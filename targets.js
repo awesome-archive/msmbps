@@ -60,6 +60,10 @@ data1 = {
         name: "Sydney",
         url: "http://syd-au-ping.vultr.com/",
         download: "http://syd-au-ping.vultr.com/vultr.com.100MB.bin"
+    }, {
+        name: "Toronto",
+        url: "http://tor-ca-ping.vultr.com/",
+        download: "http://tor-ca-ping.vultr.com/vultr.com.100MB.bin"
     }],
     Linode: [{
         name: "Newark",
@@ -187,6 +191,10 @@ data1 = {
         name: "Atlanta",
         url: "http://atl.lg.virmach.com/",
         download: "http://atl.lg.virmach.com/100MB.test"
+    }, {
+        name: "San Jose",
+        url: "http://sj.lg.virmach.com/",
+        download: "http://sj.lg.virmach.com/100MB.test"
     }],
     //
     // Official test URLs of BandwagonHost
@@ -214,10 +222,6 @@ data1 = {
         url: "http://98.142.136.11/",
         download: "http://98.142.136.11/100mb.bin"
     }, {
-        name: "Phoenix",
-        url: "http://198.35.46.28/",
-        download: "http://198.35.46.28/100mb.bin"
-    }, {
         name: "Fremont",
         url: "http://184.105.138.80/",
         download: "http://184.105.138.80/100mb.bin"
@@ -225,6 +229,10 @@ data1 = {
         name: "New York",
         url: "http://208.167.227.122/",
         download: "http://208.167.227.122/100mb.bin"
+    }, {
+        name: "New Jersey",
+        url: "http://23.29.138.5/",
+        download: "http://23.29.138.5/100mb.bin"
     }, {
         name: "Netherlands",
         url: "http://45.62.120.202/",
@@ -325,23 +333,23 @@ data2 = {
     // Source: https://iniz.com/our-network
     INIZ: [{
         name: "London",
-        url: "http://lon-uk.lg.iniz.com/",
-        download: "http://lon-uk.lg.iniz.com/100MB.test"
+        url: "https://lon.lg.iniz.com/",
+        download: "https://lon.lg.iniz.com/100MB.test"
     }, {
         name: "Amsterdam",
-        url: "http://ams-nl.lg.iniz.com/",
-        download: "http://ams-nl.lg.iniz.com/100MB.test"
+        url: "https://ams.lg.iniz.com/",
+        download: "https://ams.lg.iniz.com/100MB.test"
     }, {
         name: "Ashburn",
-        url: "http://va-us.lg.iniz.com/",
-        download: "http://va-us.lg.iniz.com/100MB.test"
+        url: "https://ash.lg.iniz.com/",
+        download: "https://ash.lg.iniz.com/100MB.test"
     }, {
         name: "Los Angeles",
-        url: "http://la-us.lg.iniz.com/",
-        download: "http://la-us.lg.iniz.com/100MB.test"
+        url: "https://la.lg.iniz.com/",
+        download: "https://la.lg.iniz.com/100MB.test"
     }, {
         name: "Singapore",
-        url: "http://sg.lg.syn.ltd.uk/",
+        url: "https://sg.lg.iniz.com/",
         download: "http://103.254.153.18/speedtest/100mb.bin"
     }],
     //
@@ -369,7 +377,7 @@ data2 = {
     }],
     //
     // Source: https://www.hudsonvalleyhost.com/network.php
-    HudsonValleyHost: [{
+    /*HudsonValleyHost: [{
         name: "Dallas",
         url: "http://lg-dal.hudsonvalleyhost.com/",
         download: "http://lg-dal.hudsonvalleyhost.com/100MB.test"
@@ -389,6 +397,17 @@ data2 = {
         name: "Atlanta",
         url: "http://lg-atl.hudsonvalleyhost.com/",
         download: "http://lg-atl.hudsonvalleyhost.com/100MB.test"
+    }],*/
+    //
+    //https://hosteons.com/
+    Hosteons: [{
+        name: "LA",
+        url: "http://lg.hosteons.com/",
+        download: "http://lg.hosteons.com/100MB.test"
+    }, {
+        name: "NY",
+        url: "http://lg.ny.hosteons.com/",
+        download: "http://lg.ny.hosteons.com/100MB.test"
     }],
     //
     // Source: https://www.hostwinds.com/company/datacenters
@@ -400,13 +419,6 @@ data2 = {
         name: "Seattle",
         url: "http://104.168.168.16/",
         download: "http://104.168.168.16/100mb.zip"
-    }],
-    //
-    // Source: https://www.kdatacenter.com/korea-dedicated-server
-    Kdatacenter: [{
-        name: "Korea",
-        url: "http://downloadtest.kdatacenter.com/",
-        download: "http://downloadtest.kdatacenter.com/100MB"
     }]
 };
 // Page #3 - AWS
@@ -521,10 +533,10 @@ data3 = {
     }, {
         name: "US West (Oregon)",
         url: "http://s3.us-west-2.amazonaws.com/"
-    }, {
+    },/* {
         name: "Asia Pacific (Mumbai)",
         url: "http://s3.ap-south-1.amazonaws.com/"
-    }, {
+    },*/ {
         name: "Asia Pacific (Osaka-Local)",
         url: "http://s3.ap-northeast-3.amazonaws.com/"
     },/* {
@@ -533,19 +545,19 @@ data3 = {
     },*/ {
         name: "Asia Pacific (Singapore)",
         url: "http://s3.ap-southeast-1.amazonaws.com/"
-    }, {
+    },/* {
         name: "Asia Pacific (Sydney)",
         url: "http://s3.ap-southeast-2.amazonaws.com/"
-    }, {
+    },*/ {
         name: "Asia Pacific (Tokyo)",
         url: "http://s3.ap-northeast-1.amazonaws.com/"
     },/* {
         name: "Canada (Central)",
         url: "http://s3.ca-central-1.amazonaws.com/"
-    },*/ {
+    },*//* {
         name: "EU (Frankfurt)",
         url: "http://s3.eu-central-1.amazonaws.com/"
-    }, {
+    },*/ {
         name: "EU (Ireland)",
         url: "http://s3.eu-west-1.amazonaws.com/"
     },/* {
